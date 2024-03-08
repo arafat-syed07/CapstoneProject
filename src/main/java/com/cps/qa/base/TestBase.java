@@ -40,12 +40,12 @@ public class TestBase {
 		
 		if(browserName.equals("firefox")){
 			System.setProperty("webdriver.firefox.driver",
-					"C:\\Users\\Syed Arfaat\\Downloads\\Manipal\\geckodriver-v0.34.0-win-aarch64\\geckodriver.exe");
+					"C:\\Users\\Syed Arfaat\\Downloads\\geckodriver-v0.34.0-win-aarch64\\geckodriver.exe");
 			WebDriver driver = new FirefoxDriver(); 
 		}
 		else if(browserName.equals("edge")){
 			System.setProperty("webdriver.edge.driver",
-					"C:\\Users\\Syed Arfaat\\Downloads\\Manipal\\edgedriver_win64\\msedgedriver.exe");
+					"C:\\Users\\Syed Arfaat\\Downloads\\edgedriver_win64\\msedgedriver.exe");
 			WebDriver driver = new EdgeDriver();  
 		}
 		

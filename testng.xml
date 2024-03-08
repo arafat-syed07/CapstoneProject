@@ -3,7 +3,7 @@
 <suite name="Suite">
 
 	<listeners>
-			<listener class-name="com.cps.qa.ExtendReportListner.ExtendReporterListner" />
+			<listener class-name="com.qa.ExtentReportListner.ExtentReporterListner" />
 	</listeners>
 	
   <test thread-count="5" name="Test">
